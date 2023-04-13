@@ -291,10 +291,32 @@ flex-direction: column;
 .home-pic-2{
 display: flex;
 gap: 30px;
+position: relative;
 }
+.home-pic-2 .all-icon{
+position: absolute;
+top: 350px;
+left: 100px;
+display: flex;
+gap: 15px;
+}
+.home-pic-2 .all-icon .pdn{
+background-color: gray;
+border-radius: 50%;
+padding: 5PX;
+}
+
 .home-pic-2 img{
 width: 317px;
 height: 397px;
+}
+.home-pic-2 .shop{
+width: 35px;
+height: 35px;
+background-color: rgb(255, 136, 0);
+border-radius: 50%;
+padding: 7px;
+
 }
 .text-div {
     display: flex;
@@ -302,6 +324,7 @@ height: 397px;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
+    margin-top: 15px;
 }
 .colors-container {
     display: flex;
