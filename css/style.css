@@ -274,10 +274,68 @@ color: #ffffff;
 cursor: pointer;
 display: inline-block;
 transition: 0.5s;
-margin-bottom: 180px;
+margin-bottom: 160px;
 margin-right: 60px;
 }
 .btn:hover {
     background-color: white;
     color: black;
+}
+.home-3{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.home-pic-2{
+display: flex;
+gap: 30px;
+}
+.home-pic-2 img{
+width: 317px;
+height: 397px;
+}
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.colors-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+.text-div .color:nth-child(1){
+    background-color: gray;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.text-div .color:nth-child(2){
+    background-color: rgb(151, 240, 242);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.text-div .color:nth-child(3){
+    background-color: palevioletred;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.text-div .color:nth-child(4){
+    background-color: rgb(7, 169, 7);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.text-div .color:nth-child(5){
+    background-color: rgb(101, 20, 20);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
 }
