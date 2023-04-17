@@ -1,6 +1,9 @@
 .home-1{
-background-image: url();
-}
+    background-image: url("../images/cart-home.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    width: 100%;
+    }
 .cart-home-1{
 display: flex;
 width: 100%;
