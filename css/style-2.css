@@ -1,3 +1,6 @@
+.home-1{
+background-image: url();
+}
 .cart-home-1{
 display: flex;
 width: 100%;
@@ -7,6 +10,7 @@ flex-direction: row;
 flex-wrap: wrap;
 margin-top: 50px;
 margin-bottom: 50px;
+text-transform: capitalize;
 }
 .cart-home-1 img{
 width: 100px;
@@ -18,11 +22,11 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 width: 100%;
-gap: 208px;
-text-transform: capitalize;
+gap: 198px;
+margin-right: 117px;
 }
 .f1-cart-home-1 h2:first-child{
-margin-right: 290px;
+margin-right: 299px;
 }
 .f2-cart-home-1{
     display: flex;
@@ -46,27 +50,6 @@ width: 25%;
 display: flex;
 margin: 10px 20px;
 }
-.f3-cart-home-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.f3-cart-home-1 div div div{
-display: flex;
-margin: 10px 20px;
-}
-.f3-cart-home-1 div:first-child{
-display: flex;
-width: 25%;
-}
-.f3-cart-home-1 h2{
-    margin: 10px 20px;
-}
 .cart-home-1 .n{
 border: 1px solid #777;
 padding: 3px 7px;
@@ -75,6 +58,91 @@ display: flex;
 text-align: center;
 align-items: center;
 }
+
+.f3-cart-home-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    gap: 940px;
+    text-align: center;
+}
+.cart-home-1 .ext{
+display: flex;
+gap: 120px;
+}
+.f4-cart-home-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 910px;
+    margin-top: 20px;
+}
+.f4-cart-home-1 div:first-child{
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+.f4-cart-home-1 a{
+background-color: black;
+text-decoration: none;
+color: white;
+padding: 10px;
+}
+.f4-cart-home-1 .dfrt a{
+background-color: transparent;
+border: 1px solid #777;
+color: #777;
+}
+.f5-cart-home-1{
+width: 80%;
+margin-top: 50px;
+}
+.f5-cart-home-1 .spr-1{
+display: flex;
+}
+.f5-cart-home-1 h1{
+margin-right: 80px;
+font-weight: 550;
+margin-bottom: 10px;
+font-size: 1.7rem;
+}
+.spr > div:first-child{
+display: flex;
+gap:149px;
+margin-top: 10px;
+}
+.spr > div{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.cart-home-1 .fin{
+    background-color: black;
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cart-home-1 .fin a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 
 
