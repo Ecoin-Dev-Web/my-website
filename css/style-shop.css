@@ -1,0 +1,83 @@
+.shop-home-1{
+display: flex;
+width: 100%;
+flex-direction: column;
+flex-wrap: nowrap;
+gap: 30px;
+margin-bottom: 200px;
+}
+.shop-home-1 .shop-top{
+display: flex;
+flex-direction: row;
+gap: 900px;
+align-items: center;
+justify-content: center;
+}
+.shop-home-1 .shop-top div:first-child{
+display: flex;
+gap: 5px;
+}
+
+.shop-home-1 .footer-shop{
+display: flex;
+gap: 100px;
+align-items: flex-start;
+justify-content: center;
+}
+.shop-home-1 .shop-left{
+background-color: #ebe9e9;
+width: 300px;
+text-transform: capitalize;
+}
+.shop-home-1 .shop-left div div{
+display: flex;
+justify-content: space-between;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 10px;
+}
+.shop-home-1 .shop-left .shop-left-h3{
+background-color: rgb(214, 170, 116);
+display: flex;
+align-items: center;
+margin: 10px;
+padding: 5px;
+padding-left:20px;
+}
+.shop-home-1 .shop-left li{
+list-style: none;
+}
+label.checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+  }
+  .shop-home-1 .home-pic-2{
+margin-bottom: 120px;
+}
+.shop-bottom{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+gap: 870px;
+color: #777;
+}
+.shop-bottom .cari{
+display: flex;
+gap: 8px;
+}
+.shop-bottom .cari div{
+border: 2px solid #777;
+padding: 5px 15px;
+text-align: center;
+}
+
+
+

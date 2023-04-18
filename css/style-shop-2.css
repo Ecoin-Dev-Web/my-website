@@ -1,0 +1,22 @@
+.home-1{
+margin-bottom: 100px;
+}
+.shop-home-1 .shop-top-1{
+    width: 90%;
+display: flex;
+background-color: #ebe9e9;
+gap: 10px;
+padding: 5px;
+margin: auto;
+text-transform: capitalize;
+}
+.shop-home-1 .shop-top-1 div div{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(214, 170, 116);
+width: 155px;
+height: 35px;
+color:aliceblue;
+font-size: .8rem;
+}
