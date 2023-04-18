@@ -20,7 +20,7 @@ gap: 5px;
 
 .shop-home-1 .footer-shop{
 display: flex;
-gap: 100px;
+gap: 40px;
 align-items: flex-start;
 justify-content: center;
 }
