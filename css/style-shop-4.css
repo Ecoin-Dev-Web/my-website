@@ -1,0 +1,11 @@
+.footer-shop{
+display: flex;
+width: 100%;
+}
+.shop-right{
+display: flex;
+width: 100%;
+justify-content: flex-start;
+flex-direction: row;
+margin-left: 80px;
+}

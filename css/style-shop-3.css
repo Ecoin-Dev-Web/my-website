@@ -12,14 +12,13 @@ align-items: flex-start;
 .footer-shop .home-pic-2 .shop-pic{
 display: flex;
 gap: 40px;
-position: relative;
-
 }
-.all-icon{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.all-icon span{
+    position: relative;
+    bottom: 170px;
+    left: 40px; 
+    font-size: 30px;
+    color: aliceblue;   
 }
 .home-pic-2 .flex-h5{
     display: flex;

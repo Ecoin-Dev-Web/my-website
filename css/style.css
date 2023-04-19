@@ -303,7 +303,7 @@ display: flex;
 gap: 15px;
 }
 .home-pic-2 .all-icon .pdn{
-background-color: gray;
+background-color: rgb(134, 131, 131);
 border-radius: 50%;
 padding: 5PX;
 }
@@ -315,7 +315,7 @@ height: 397px;
 .home-pic-2 .shop{
 width: 35px;
 height: 35px;
-background-color: rgb(255, 136, 0);
+background-color: rgb(214, 170, 116);
 border-radius: 50%;
 padding: 7px;
 

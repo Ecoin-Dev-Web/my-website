@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-cart.css">
+    <link rel="stylesheet" href="css/style-checkout.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -61,6 +62,99 @@
     </nav>
         </div>
     </div>
+    <div class="order">
+        <h1>Complete order</h1>
+        <div class="order-top">
+            <p>Terms and conditions and cancellation policy</p>
+        <hr style="color: #777; width: 100%;">
+        <a style="color: #777;" href="#" target="_blank">please note our cancellation policy</a>
+        <ul>
+            <li>
+                <input type="checkbox" id="item1" name="item1" value="item1">
+                <label class="checkbox" for="item1">I have read and accepted the general terms and conditions</label>
+            </li>
+        </ul>
+    </div>
+        <div class="address">
+            <div class="address-left">
+                <h2>billing address</h2>
+        <hr style="color: #777; width: 100%;">
+        <div>
+            <p>mr. ABC</p>
+            <p>plot. 255, street one</p>
+            <p>74600 city</p>
+            <p>germany</p></div>
+        <div style="margin-top:15px;"><a href="#" target="_blank">Change Billing Address</a></div>
+            </div>
+            <div class="address-right">
+                <h2>shipping address</h2>
+                <hr style="color: #777; width: 100%;">
+                <p style="margin-bottom: 65px;">same as billing</p>
+                <div><a href="#" target="_blank">Change Billing Address</a></div>
+            </div>
+        </div>
+        <div class="address">
+            <div class="address-left">
+                <h2>payment method</h2>
+                <hr style="color: #777; width: 100%;">
+               <div class="pay"> 
+                <div class="margin-left-1">
+                    <h5>paid in advance</h5>
+                <ul>
+                    <li>
+                        <input type="radio" id="item1" name="item1" value="item1">
+                        <label class="checkbox" for="item1">Pay in advance and get your order afterwards</label>
+                    </li>
+                </ul>
+                </div>
+                <div><img src="images/skrill.png" alt=""></div>
+            </div>
+               <div class="pay"> 
+              <div class="margin-left-2">
+                <h5>cash on delivery</h5>
+                <ul>
+                    <li>
+                        <input type="radio" id="item1" name="item1" value="item1">
+                        <label class="checkbox" for="item1">Payment upon receipt of goods</label>
+                    </li>
+                </ul>
+              </div>
+              <div><img src="images/stripe.png" alt=""></div>
+            </div>
+               <div class="pay"> 
+                <div>
+                    <h5>invoice</h5>
+                <ul>
+                    <li>
+                        <input type="radio" id="item1" name="item1" value="item1">
+                        <label class="checkbox" for="item1">Payment by invoice. shopware provides automatic invoicing</label>
+                    </li>
+                </ul>
+                </div>
+                <div><img class="hh" src="images/paypal.png" alt=""></div>
+            </div>
+            </div>
+            <div class="address-right">
+                <h2>shipping address</h2>
+                <hr style="color: #777; width: 100%;">
+                <div>
+                    <ul>
+                        <li>
+                            <input type="radio" id="item1" name="item1" value="item1">
+                            <label class="checkbox" for="item1">Standard</label>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <input type="radio" id="item1" name="item1" value="item1">
+                            <label class="checkbox" for="item1">Express</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>your order</h1>
     <div class="cart-home-1">
         <div class="f1-cart-home-1">
             <h2>product</h2>
